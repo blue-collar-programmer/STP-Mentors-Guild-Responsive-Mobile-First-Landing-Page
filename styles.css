@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+/*@media screen and (max-width: 480px) {*/
+    
+
+.container {
+    margin: auto;
+    width: 100%;
+    min-width: 300px;
+    background-color: skyblue;
+}
+
+.header-bar {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 10px 10px 15px;
+    background: rgba(7, 7, 7, 0.705) ;
+    border: none;
+}
+
+.mobile-option-icon {
+    background-image: url("assets/menu_lines_hamburger_icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    
+}
+
+.mobile-option-icon:hover {
+    cursor: pointer;
+    opacity: 90%;
+    background-color: rgb(15, 135, 182);
+
+}
+
+.video-conatiner {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.quote-container{
+    width: 90%;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quote {
+    position: absolute;
+    margin:15px auto 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    opacity: 90%;
+    padding: 15px 10px;
+}
+
+.loop {
+    width: 100%;
+    height: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.actve {
+    display: block;
+
+}
+
+.tab-container {
+    display: none;
+}
+
+.tile-container {
+    width:75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    border: solid 1px cornflowerblue;
+    background-color: black;
+    color: white;
+    padding:5px 10px;
+    opacity: 70%;
+    font-size: .94em;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.side-bar-menu-container {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.767);
+    color: rgb(15, 135, 182);
+    padding: 10px 7px 10px 12px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+.tab-S {
+    padding: 10px 0;
+}
+
+.tab-S:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 95%;
+}
+
+
+
+@media screen and (min-width: 630px) {
+    
+    .mobile-option-icon {
+        display: none;
+    }
+}
+
